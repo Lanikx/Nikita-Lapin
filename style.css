@@ -1,104 +1,94 @@
-.toppanel
+.top_panel
 {
     background-color:black;
     color: blanchedalmond;
     text-align: center;
-    
     height: 50px;
 }
-.par1
+.par_1_link
 {
-    padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
+    padding: 1% 1%;
+    font-family: 'Times New Roman';
     font-style: italic;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 200%;
     color:white;
-    background-color: rgba(231, 50, 95, 0.432);
+    background-color: rgba(231, 50, 95, 0);
 }
-.par1:link
+.par_1_link:link
 {
     background-color: brown;
 }
-.par1:visited
+.par_1_link:visited
 {
     color:thistle;
 }
-.par2
+.par_2_link
 {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding-left: 20px;
-    font-size: 30px;
-    padding-right: 20px;
+    padding: 1% 1%;
+    font-family:Impact;   
+    font-size: 200%;   
     color:white;
     background-color: rgba(111, 0, 255, 0.404);
 }
-.par2:link
+.par_2_link:link
 {
     background-color: brown;
 }
-.par2:visited
+.par_2_link:visited
 {
     color:thistle;
 }
-.par3
+.par_3_link
 {
     color:white;
-    padding: 20px;
+    padding: 1% 1% ;
     font-family: Verdana;
-    padding-left: 20px;
-    font-size: 30px;
-    padding-right: 20px;
+    font-size: 200%; 
     background-color: rgb(0, 255, 234, 0.4);
 }
-.par3:link
+.par_3_link:link
 {
     background-color: brown;
 }
-.par3:visited
+.par_3_link:visited
 {
     color:thistle;
 }
-.par4
+.par_4_link
 {
     color:white;
-    padding: 20px;
+    padding: 1% 1%;
     background-color: rgb(199, 241, 9, 0.4);
     font-family: serif;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-size: 200%;
 }
-.par4:link
+.par_4_link:link
 {
     background-color: brown;
 }
-.par4:visited
+.par_4_link:visited
 {
     color:thistle;
 }
-.par5
+.par_5_link
 {
     color:white;
-    padding: 20px;
-    background-color: rgb(124, 243, 6, 0.4);
-    padding-left: 20px;
-    font-size: 30px;    
-    padding-right: 20px;
+    padding: 1% 1%;
+    background-color: rgb(124, 243, 6, 0.4);  
+    font-size: 200%;    
 }
-.par5:link
+.par_5_link:link
 {
     background-color: brown;
 }
-.par5:visited
+.par_5_link:visited
 {
     color:thistle;
 }
-.space
+.images
 {
-    padding-top:10%;
+    max-width: 10%;
+    max-height: 10%;
 }
 
 #text1
@@ -107,6 +97,7 @@
     font-size: 30px;
     font-style:oblique;
     font-weight: 400;
+    font: outline;
 }
 #text2
 {
@@ -126,7 +117,7 @@
 {
     padding: 10% 10% 10% 10%;
     font-size: 30px;
-    font-style:oblique;
+    font-style:italic;
     font-weight: 400;
 }
 #text5
@@ -152,7 +143,11 @@
 {
     color:black;
 }
-.text
+.hidden:visited
 {
-    background-color: lightgray;  
+    color:black;
+}
+body
+{
+    background-color: rgb(238, 238, 238);
 }
