@@ -1,0 +1,509 @@
+html
+{
+    font-size: 16px
+}
+
+body
+{
+    margin: 0;
+}
+
+main>div
+{
+    margin: auto;
+    width: 100%;
+    max-width: 1400px;
+
+}
+
+@font-face {
+    font-family: "font-Awesome";
+    src: url("./project/fonts/fontawesome-webfont.woff2") format("woff2"),
+        url("./project/fonts/fontawesome-webfont.eot") format("eot"),
+        url("./project/fonts/fontawesome-webfont.svg") format("svg"),
+        url("./project/fonts/fontawesome-webfont.ttf") format("ttf"),
+        url("./project/fonts/fontawesome-webfont.woff") format("woff"),
+        url("./project/fonts/FontAwesome.otf") format("otf");     
+   }
+.header
+{
+    font-family: Source Sans Pro;
+    font-size:0.75rem;
+}
+
+.header-home
+{
+    font-family: Source Sans Pro;
+    font-size:0.75rem;
+    color:orange;
+}
+
+.block
+{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.line-1
+{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.line-2
+{
+    margin: auto;
+    display: flex;
+    height: 250px;
+}
+
+.block-3
+{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 150px;
+}
+
+.block-4
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#block-top
+{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(226, 200, 166, 0.959);
+}
+
+.header-top
+{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+    padding: 5% 10%;
+}
+
+.header-middle
+{
+    max-width: 80%;
+    align-self: center;  
+    margin: auto;
+}
+
+.get-started
+{
+    margin: 5% 0;
+    padding: 2%;
+    max-width: 200px;
+    font-size: 0.9rem;
+    border: 4px solid black;
+    border-radius: 30px;
+    border-color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stimulus-image-top
+{
+    background-image: url(./project/images/home-img.jpg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 1100px;
+    height: 600px;
+    width: 50%;
+    min-width: 50%;
+}
+
+.stimulus-title
+{
+    font-size: 1.25rem;
+    color:black;
+    font-family: Source Sans Pro;
+}
+
+.stimulus-huge-black
+{
+    font-size: 2rem;
+    font-family: Source Sans Pro;
+    font-weight:lighter;
+}
+
+.stimulus-huge-white
+{
+    font-size: 2rem;
+    font-family: Source Sans Pro;
+    color:white;
+    font-weight:lighter;
+}
+
+.stimulus-medium-white
+{
+    font-size:1.25rem;
+    font-family: Source Sans Pro;
+    color:white;
+}
+
+.stimulus-medium
+{
+    font-size:1.25rem;
+    font-family: Source Sans Pro;
+}
+
+.lorem-small
+{
+    font-size: 0.75rem;
+    font-family: font-Awesome, Source Sans Pro;
+    color:gray
+}
+
+.lorem-small-orange
+{
+    font-family: Source Sans Pro;
+    font-size: 0.75rem;
+    color:orange;
+}
+
+.lorem-small-white
+{
+    font-family: Source Sans Pro;
+    font-size: 0.8rem;
+    color:white;
+}
+
+.lorem-small-bold
+{
+    font-family: Source Sans Pro;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.orange-bg
+{
+    width: 50%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.orange-bg>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-img
+{
+    min-width: 50%;
+    min-height: 100%;
+    background-image: url(./project/images/about-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 450%;
+    background-position: 50% 20%;
+}
+
+.padding-left-10
+{
+    padding: 0 10%;
+    height: 30%;
+}
+
+.padding-left-5
+{
+    padding: 0 5%;
+}
+
+.progress-bar
+{
+    width: 100%;
+    min-height: 3px;
+    background-color: white;
+}
+
+.progress-bar-90
+{
+    display: block;
+    height: 100%;
+    width: 90%;
+    background-color: black;
+}
+
+.progress-bar-80
+{
+    display: block;
+    height: 100%;
+    width: 80%;
+    background-color: black;
+}
+
+.progress-bar-70
+{
+    display: block;
+    height: 100%;
+    width: 70%;
+    background-color: black;
+}
+
+.line-3
+{
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+}
+
+.line-3-half
+{
+    width: 50%;
+    display: flex;
+}
+
+.line-3-block
+{
+    width: 50%;
+    min-height: 100%;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.line-3-block div
+{
+    text-align: center;
+}
+
+#icons
+{
+    font-family: font-Awesome, Source Sans Pro;
+    font-size: 3rem;
+    color: white;
+}
+
+#icons-gray
+{
+    font-family: font-Awesome, Source Sans Pro;
+    font-size: 1rem;
+    color: gray;
+    margin: auto;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+
+#exp-icon
+{
+    font-family: font-Awesome;
+    font-size: 2rem;
+    color: white;
+}
+
+#icons-black
+{
+    font-family: font-Awesome;
+    font-size: 3rem;
+    color: black;
+}
+
+#margin-down
+{
+    margin-bottom: 10px;
+}
+
+#block-1
+{
+    background-color: orange;
+}
+
+#block-2
+{
+    background-color: orangered;
+}
+
+#block-3
+{
+    background-color: black;
+}
+
+#block-4
+{
+    background-color: white;
+}
+
+.line-4-5
+{
+    display: flex;
+}
+
+.date-small-dark
+{
+    font-family: Source Sans Pro ;
+    font-size: 0.75rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.exp-image
+{
+    min-width: 50%;
+    background-image: url(./project/images/experience-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 350%;
+    background-position: 50% 25%;
+}
+
+.ed-image
+{
+    min-width: 50%;
+    background-image: url(./project/images/education-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-position: 50% 25%;
+}
+
+
+.exp
+{
+    display: flex;
+    background-color: orange;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.exp>div
+{
+    padding: 0 5%;
+}
+
+.position-date
+{
+    display: flex;
+    text-align: center;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.line-6
+{
+    height: 350px;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7) ), url(./project/images/quotes-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.line-6>div
+{
+    max-width: 60%;
+}
+
+.line-7
+{
+    height: 300px;
+    display: flex;   
+}
+
+.line-7-block-1
+{
+    height: 100%;
+    background-color: rgba(255, 68, 0, 0.7);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.line-7-block-1 input
+{
+    width: 90%;
+    background-color:rgba(255, 68, 0, 0);
+}
+
+.line-7-block-1-part1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+
+.line-7-block-1-part1>div,input
+{
+    margin:0 5%;
+    max-width: 80%;
+}
+
+.send-button
+{
+    color:black;
+    font-family: Source Sans Pro;
+    margin: 0 5%;
+    padding:0 15%;
+    background-color: white;
+    border: 3px solid white;
+    max-width: 10%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.input
+{
+    font-family: Source Sans Pro;
+    color:white;
+    margin: 0 5%;
+    font-size: 0.75rem;
+    border-bottom: 1px solid white;
+}
+
+.input-huge
+{
+    font-family: Source Sans Pro;
+    font-size: 0.75rem;
+    color:white;
+    margin: 0 5%;
+    border-bottom: 1px solid white;
+    height: 30%;
+}
+
+.margin-5
+{
+    margin: 10%;
+}
+
+.line7-block-2
+{
+    background-image: url(./project/images/contact-img.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: 50%;
+    width: 25%;
+}
+
+.line7-block-3
+{
+    max-width: 25%;
+    width: 25%;
+    background-color: rgba(20, 20, 20, 0.945);
+}
+
